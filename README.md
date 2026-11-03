@@ -1,5 +1,7 @@
 # Grain-boundary network percolation meets machine-learned grain-boundary energies
 
+**Archived DOI:** https://doi.org/10.5281/zenodo.23912047
+
 Code, data and manuscript sources for the manuscript:
 
 > **Grain-boundary network percolation meets machine-learned grain-boundary energies: blind prediction of intergranular failure susceptibility**
