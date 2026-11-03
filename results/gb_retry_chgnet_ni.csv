@@ -1,0 +1,4 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+chgnet,Ni,fcc,310,5,-,,3.5018,0,,failed
+chgnet,Ni,fcc,221,9,z0.2_t0.500.00,2202.49,3.5018,96,2.309,ok
+chgnet,Ni,fcc,113,11,z0.0_t0.000.00,1105.36,3.5018,184,2.347,ok

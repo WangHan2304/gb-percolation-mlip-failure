@@ -1,0 +1,3 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+chgnet,Cu,fcc,310,5,-,,3.6156,0,,failed
+chgnet,Cu,fcc,221,9,z0.2_t0.500.00,1251.08,3.6156,96,2.388,ok

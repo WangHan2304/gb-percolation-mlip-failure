@@ -1,0 +1,650 @@
+[config] NPROC=4 RANKS=2 (z=2)
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 009_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 009_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 009_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 014_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 014_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 016_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 016_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 014_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 019_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 016_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 019_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 019_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 026_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 026_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 030_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 026_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 030_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 040_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 030_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 040_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 040_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 045_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 045_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 045_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 048_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 048_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 048_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 052_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 052_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 052_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 060_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 060_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 060_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 063_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 063_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 063_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 071_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 071_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 071_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 075_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 075_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 075_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 084_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 084_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 084_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 090_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 090_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 090_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 092_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 092_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 092_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 108_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 108_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 108_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 110_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 110_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 110_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 118_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 118_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 118_Fe
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 123_Ni
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 123_Cu
+usage: e3_postprocess.py [-h] --stage {curves,labels} [--run-dir RUN_DIR]
+                         [--runs-root RUNS_ROOT] [--z Z]
+e3_postprocess.py: error: argument --z: invalid int value: ''
+[POST-FAIL] 123_Fe
+[curves] 125_Cu: 跳过 10 个降采样新增邻接对
+[curves] 125_Cu: 591 边 × 21 输出点, ε_max=0.0600
+[done 666s] 125_Cu
+[curves] 125_Ni: 跳过 10 个降采样新增邻接对
+[curves] 125_Ni: 591 边 × 21 输出点, ε_max=0.0600
+[done 726s] 125_Ni
+[curves] 125_Fe: 跳过 10 个降采样新增邻接对
+[curves] 125_Fe: 591 边 × 21 输出点, ε_max=0.0600
+[done 974s] 125_Fe
+[curves] 126_Cu: 跳过 1 个降采样新增邻接对
+[curves] 126_Cu: 169 边 × 21 输出点, ε_max=0.0600
+[done 1149s] 126_Cu
+[curves] 126_Ni: 跳过 1 个降采样新增邻接对
+[curves] 126_Ni: 169 边 × 21 输出点, ε_max=0.0600
+[done 994s] 126_Ni
+[curves] 126_Fe: 跳过 1 个降采样新增邻接对
+[curves] 126_Fe: 169 边 × 21 输出点, ε_max=0.0600
+[done 1045s] 126_Fe
+[curves] 129_Cu: 跳过 6 个降采样新增邻接对
+[curves] 129_Cu: 459 边 × 21 输出点, ε_max=0.0600
+[done 1128s] 129_Cu
+[curves] 129_Ni: 跳过 6 个降采样新增邻接对
+[curves] 129_Ni: 459 边 × 21 输出点, ε_max=0.0600
+[done 979s] 129_Ni
+[curves] 129_Fe: 跳过 6 个降采样新增邻接对
+[curves] 129_Fe: 459 边 × 21 输出点, ε_max=0.0600
+[done 1150s] 129_Fe
+[curves] 136_Cu: 跳过 1 个降采样新增邻接对
+[curves] 136_Cu: 180 边 × 21 输出点, ε_max=0.0600
+[done 1108s] 136_Cu
+[curves] 136_Ni: 跳过 1 个降采样新增邻接对
+[curves] 136_Ni: 180 边 × 21 输出点, ε_max=0.0600
+[done 862s] 136_Ni
+[curves] 136_Fe: 跳过 1 个降采样新增邻接对
+[curves] 136_Fe: 180 边 × 21 输出点, ε_max=0.0600
+[done 1128s] 136_Fe
+[curves] 139_Cu: 跳过 6 个降采样新增邻接对
+[curves] 139_Cu: 553 边 × 21 输出点, ε_max=0.0600
+[done 1116s] 139_Cu
+[curves] 139_Ni: 跳过 6 个降采样新增邻接对
+[curves] 139_Ni: 553 边 × 21 输出点, ε_max=0.0600
+[done 991s] 139_Ni
+[curves] 139_Fe: 跳过 6 个降采样新增邻接对
+[curves] 139_Fe: 553 边 × 21 输出点, ε_max=0.0600
+[done 1262s] 139_Fe
+[curves] 140_Ni: 跳过 1 个降采样新增邻接对
+[curves] 140_Ni: 141 边 × 21 输出点, ε_max=0.0600
+[done 1079s] 140_Ni
+[curves] 140_Fe: 跳过 1 个降采样新增邻接对
+[curves] 140_Fe: 141 边 × 21 输出点, ε_max=0.0600
+[done 1040s] 140_Fe
+[curves] 140_Cu: 跳过 1 个降采样新增邻接对
+[curves] 140_Cu: 141 边 × 21 输出点, ε_max=0.0600
+[done 1752s] 140_Cu
+[curves] 142_Cu: 跳过 4 个降采样新增邻接对
+[curves] 142_Cu: 275 边 × 21 输出点, ε_max=0.0600
+[done 1172s] 142_Cu
+[curves] 142_Ni: 跳过 4 个降采样新增邻接对
+[curves] 142_Ni: 275 边 × 21 输出点, ε_max=0.0600
+[done 1047s] 142_Ni
+[curves] 142_Fe: 跳过 4 个降采样新增邻接对
+[curves] 142_Fe: 275 边 × 21 输出点, ε_max=0.0600
+[done 1285s] 142_Fe
+[curves] 145_Cu: 跳过 6 个降采样新增邻接对
+[curves] 145_Cu: 400 边 × 21 输出点, ε_max=0.0600
+[done 1145s] 145_Cu
+[curves] 145_Ni: 跳过 6 个降采样新增邻接对
+[curves] 145_Ni: 400 边 × 21 输出点, ε_max=0.0600
+[done 947s] 145_Ni
+[curves] 145_Fe: 跳过 6 个降采样新增邻接对
+[curves] 145_Fe: 400 边 × 21 输出点, ε_max=0.0600
+[done 1200s] 145_Fe
+[curves] 153_Ni: 跳过 4 个降采样新增邻接对
+[curves] 153_Ni: 196 边 × 21 输出点, ε_max=0.0600
+[done 956s] 153_Ni
+[curves] 153_Cu: 跳过 4 个降采样新增邻接对
+[curves] 153_Cu: 196 边 × 21 输出点, ε_max=0.0600
+[done 1157s] 153_Cu
+[curves] 153_Fe: 跳过 4 个降采样新增邻接对
+[curves] 153_Fe: 196 边 × 21 输出点, ε_max=0.0600
+[done 1196s] 153_Fe
+[curves] 158_Cu: 跳过 3 个降采样新增邻接对
+[curves] 158_Cu: 231 边 × 21 输出点, ε_max=0.0600
+[done 1249s] 158_Cu
+[curves] 158_Ni: 跳过 3 个降采样新增邻接对
+[curves] 158_Ni: 231 边 × 21 输出点, ε_max=0.0600
+[done 1037s] 158_Ni
+[curves] 158_Fe: 跳过 3 个降采样新增邻接对
+[curves] 158_Fe: 231 边 × 21 输出点, ε_max=0.0600
+[done 1105s] 158_Fe
+[curves] 159_Cu: 跳过 3 个降采样新增邻接对
+[curves] 159_Cu: 183 边 × 21 输出点, ε_max=0.0600
+[done 1246s] 159_Cu
+[curves] 159_Ni: 跳过 3 个降采样新增邻接对
+[curves] 159_Ni: 183 边 × 21 输出点, ε_max=0.0600
+[done 859s] 159_Ni
+[curves] 159_Fe: 跳过 3 个降采样新增邻接对
+[curves] 159_Fe: 183 边 × 21 输出点, ε_max=0.0600
+[done 989s] 159_Fe
+[curves] 160_Cu: 跳过 2 个降采样新增邻接对
+[curves] 160_Cu: 321 边 × 21 输出点, ε_max=0.0600
+[done 997s] 160_Cu
+[curves] 160_Ni: 跳过 2 个降采样新增邻接对
+[curves] 160_Ni: 321 边 × 21 输出点, ε_max=0.0600
+[done 633s] 160_Ni
+[curves] 160_Fe: 跳过 2 个降采样新增邻接对
+[curves] 160_Fe: 321 边 × 21 输出点, ε_max=0.0600
+[done 724s] 160_Fe
+[curves] 165_Ni: 243 边 × 21 输出点, ε_max=0.0600
+[done 505s] 165_Ni
+[curves] 165_Cu: 243 边 × 21 输出点, ε_max=0.0600
+[done 623s] 165_Cu
+[curves] 165_Fe: 243 边 × 21 输出点, ε_max=0.0600
+[done 642s] 165_Fe
+[curves] 170_Cu: 跳过 3 个降采样新增邻接对
+[curves] 170_Cu: 499 边 × 21 输出点, ε_max=0.0600
+[done 613s] 170_Cu
+[curves] 170_Ni: 跳过 3 个降采样新增邻接对
+[curves] 170_Ni: 499 边 × 21 输出点, ε_max=0.0600
+[done 521s] 170_Ni
+[curves] 170_Fe: 跳过 3 个降采样新增邻接对
+[curves] 170_Fe: 499 边 × 21 输出点, ε_max=0.0600
+[done 708s] 170_Fe
+[curves] 177_Cu: 跳过 4 个降采样新增邻接对
+[curves] 177_Cu: 444 边 × 21 输出点, ε_max=0.0600
+[done 614s] 177_Cu
+[curves] 177_Ni: 跳过 4 个降采样新增邻接对
+[curves] 177_Ni: 444 边 × 21 输出点, ε_max=0.0600
+[done 517s] 177_Ni
+[curves] 177_Fe: 跳过 4 个降采样新增邻接对
+[curves] 177_Fe: 444 边 × 21 输出点, ε_max=0.0600
+[done 638s] 177_Fe
+[curves] 183_Ni: 跳过 6 个降采样新增邻接对
+[curves] 183_Ni: 388 边 × 21 输出点, ε_max=0.0600
+[done 522s] 183_Ni
+[curves] 183_Cu: 跳过 6 个降采样新增邻接对
+[curves] 183_Cu: 388 边 × 21 输出点, ε_max=0.0600
+[done 693s] 183_Cu
+[curves] 183_Fe: 跳过 6 个降采样新增邻接对
+[curves] 183_Fe: 388 边 × 21 输出点, ε_max=0.0600
+[done 659s] 183_Fe
+[curves] 185_Ni: 跳过 3 个降采样新增邻接对
+[curves] 185_Ni: 238 边 × 21 输出点, ε_max=0.0600
+[done 643s] 185_Ni
+[curves] 185_Cu: 跳过 3 个降采样新增邻接对
+[curves] 185_Cu: 238 边 × 21 输出点, ε_max=0.0600
+[done 906s] 185_Cu
+[curves] 185_Fe: 跳过 3 个降采样新增邻接对
+[curves] 185_Fe: 238 边 × 21 输出点, ε_max=0.0600
+[done 691s] 185_Fe
+[curves] 188_Cu: 跳过 8 个降采样新增邻接对
+[curves] 188_Cu: 540 边 × 21 输出点, ε_max=0.0600
+[done 680s] 188_Cu
+[curves] 188_Ni: 跳过 8 个降采样新增邻接对
+[curves] 188_Ni: 540 边 × 21 输出点, ε_max=0.0600
+[done 568s] 188_Ni
+[curves] 196_Cu: 跳过 6 个降采样新增邻接对
+[curves] 196_Cu: 253 边 × 21 输出点, ε_max=0.0600
+[done 597s] 196_Cu
+[curves] 188_Fe: 跳过 8 个降采样新增邻接对
+[curves] 188_Fe: 540 边 × 21 输出点, ε_max=0.0600
+[done 682s] 188_Fe
+[curves] 196_Ni: 跳过 6 个降采样新增邻接对
+[curves] 196_Ni: 253 边 × 21 输出点, ε_max=0.0600
+[done 495s] 196_Ni
+[curves] 196_Fe: 跳过 6 个降采样新增邻接对
+[curves] 196_Fe: 253 边 × 21 输出点, ε_max=0.0600
+[done 626s] 196_Fe
+propagation/e3_run.sh: 行 44: 未预期的记号 ")" 附近有语法错误
+propagation/e3_run.sh: 行 44: `RS)"'
+[config] NPROC=4 RANKS=4 (z=4)
+[skip] 009_Cu
+[skip] 009_Fe
+[skip] 009_Ni
+[skip] 014_Cu
+[skip] 014_Ni
+[skip] 014_Fe
+[skip] 016_Cu
+[skip] 016_Fe
+[skip] 019_Cu
+[skip] 019_Ni
+[skip] 016_Ni
+[skip] 019_Fe
+[skip] 026_Cu
+[skip] 026_Fe
+[skip] 026_Ni
+[skip] 030_Cu
+[skip] 030_Ni
+[skip] 040_Cu
+[skip] 030_Fe
+[skip] 040_Ni
+[skip] 045_Cu
+[skip] 040_Fe
+[skip] 045_Ni
+[skip] 045_Fe
+[skip] 048_Cu
+[skip] 048_Ni
+[skip] 052_Ni
+[skip] 052_Cu
+[skip] 048_Fe
+[skip] 052_Fe
+[skip] 060_Fe
+[skip] 060_Ni
+[skip] 063_Ni
+[skip] 063_Cu
+[skip] 063_Fe
+[skip] 071_Fe
+[skip] 060_Cu
+[skip] 071_Cu
+[skip] 071_Ni
+[skip] 075_Cu
+[skip] 084_Cu
+[skip] 075_Ni
+[skip] 075_Fe
+[skip] 084_Ni
+[skip] 090_Cu
+[skip] 084_Fe
+[skip] 090_Ni
+[skip] 090_Fe
+[skip] 092_Ni
+[skip] 092_Cu
+[skip] 092_Fe
+[skip] 108_Cu
+[skip] 108_Fe
+[skip] 108_Ni
+[skip] 110_Cu
+[skip] 110_Ni
+[skip] 110_Fe
+[skip] 118_Cu
+[skip] 118_Fe
+[skip] 118_Ni
+[skip] 123_Fe
+[skip] 123_Cu
+[skip] 123_Ni
+[skip] 125_Ni
+[skip] 125_Cu
+[skip] 126_Cu
+[skip] 125_Fe
+[skip] 126_Ni
+[skip] 126_Fe
+[skip] 129_Cu
+[skip] 129_Ni
+[skip] 129_Fe
+[skip] 136_Cu
+[skip] 136_Ni
+[skip] 139_Cu
+[skip] 136_Fe
+[skip] 139_Ni
+[skip] 139_Fe
+[skip] 140_Cu
+[skip] 140_Ni
+[skip] 140_Fe
+[skip] 142_Cu
+[skip] 142_Ni
+[skip] 142_Fe
+[skip] 145_Cu
+[skip] 145_Ni
+[skip] 145_Fe
+[skip] 153_Cu
+[skip] 153_Ni
+[skip] 153_Fe
+[skip] 158_Cu
+[skip] 158_Ni
+[skip] 158_Fe
+[skip] 159_Cu
+[skip] 159_Ni
+[skip] 159_Fe
+[skip] 160_Cu
+[skip] 160_Ni
+[skip] 160_Fe
+[skip] 165_Cu
+[skip] 165_Ni
+[skip] 165_Fe
+[skip] 170_Ni
+[skip] 170_Cu
+[skip] 170_Fe
+[skip] 177_Cu
+[skip] 177_Ni
+[skip] 183_Cu
+[skip] 177_Fe
+[skip] 183_Fe
+[skip] 183_Ni
+[skip] 185_Cu
+[skip] 185_Ni
+[skip] 185_Fe
+[skip] 188_Cu
+[skip] 188_Ni
+[skip] 196_Cu
+[skip] 188_Fe
+[skip] 196_Fe
+[skip] 196_Ni
+[curves] 034_Ni: 跳过 6 个降采样新增邻接对
+[curves] 034_Ni: 340 边 × 21 输出点, ε_max=0.0600
+[done 1032s] 034_Ni
+[curves] 034_Fe: 跳过 6 个降采样新增邻接对
+[curves] 034_Fe: 340 边 × 21 输出点, ε_max=0.0600
+[done 1190s] 034_Fe
+[curves] 034_Cu: 跳过 6 个降采样新增邻接对
+[curves] 034_Cu: 340 边 × 21 输出点, ε_max=0.0600
+[done 1313s] 034_Cu
+[curves] 028_Cu: 跳过 1 个降采样新增邻接对
+[curves] 028_Cu: 273 边 × 21 输出点, ε_max=0.0600
+[done 1473s] 028_Cu
+[curves] 028_Ni: 跳过 1 个降采样新增邻接对
+[curves] 028_Ni: 273 边 × 21 输出点, ε_max=0.0600
+[done 1036s] 028_Ni
+[curves] 028_Fe: 跳过 1 个降采样新增邻接对
+[curves] 028_Fe: 273 边 × 21 输出点, ε_max=0.0600
+[done 1311s] 028_Fe
+[curves] 015_Ni: 跳过 6 个降采样新增邻接对
+[curves] 015_Ni: 509 边 × 21 输出点, ε_max=0.0600
+[done 1046s] 015_Ni
+[curves] 015_Cu: 跳过 6 个降采样新增邻接对
+[curves] 015_Cu: 509 边 × 21 输出点, ε_max=0.0600
+[done 1408s] 015_Cu
+[curves] 015_Fe: 跳过 6 个降采样新增邻接对
+[curves] 015_Fe: 509 边 × 21 输出点, ε_max=0.0600
+[done 1426s] 015_Fe
+[curves] 055_Ni: 跳过 3 个降采样新增邻接对
+[curves] 055_Ni: 164 边 × 21 输出点, ε_max=0.0600
+[done 1022s] 055_Ni
+[curves] 055_Fe: 跳过 3 个降采样新增邻接对
+[curves] 055_Fe: 164 边 × 21 输出点, ε_max=0.0600
+[done 1166s] 055_Fe
+[curves] 055_Cu: 跳过 3 个降采样新增邻接对
+[curves] 055_Cu: 164 边 × 21 输出点, ε_max=0.0600
+[done 1453s] 055_Cu
+[curves] 115_Ni: 跳过 8 个降采样新增邻接对
+[curves] 115_Ni: 523 边 × 21 输出点, ε_max=0.0600
+[done 1049s] 115_Ni
+[curves] 115_Cu: 跳过 8 个降采样新增邻接对
+[curves] 115_Cu: 523 边 × 21 输出点, ε_max=0.0600
+[done 1196s] 115_Cu
+[curves] 115_Fe: 跳过 8 个降采样新增邻接对
+[curves] 115_Fe: 523 边 × 21 输出点, ε_max=0.0600
+[done 1256s] 115_Fe
+[curves] 083_Cu: 跳过 2 个降采样新增邻接对
+[curves] 083_Cu: 166 边 × 21 输出点, ε_max=0.0600
+[done 1353s] 083_Cu
+[curves] 083_Ni: 跳过 2 个降采样新增邻接对
+[curves] 083_Ni: 166 边 × 21 输出点, ε_max=0.0600
+[done 1082s] 083_Ni
+[curves] 083_Fe: 跳过 2 个降采样新增邻接对
+[curves] 083_Fe: 166 边 × 21 输出点, ε_max=0.0600
+[done 1214s] 083_Fe
+[curves] 008_Cu: 跳过 7 个降采样新增邻接对
+[curves] 008_Cu: 463 边 × 21 输出点, ε_max=0.0600
+[done 1189s] 008_Cu
+[curves] 008_Ni: 跳过 7 个降采样新增邻接对
+[curves] 008_Ni: 463 边 × 21 输出点, ε_max=0.0600
+[done 1028s] 008_Ni
+[curves] 008_Fe: 跳过 7 个降采样新增邻接对
+[curves] 008_Fe: 463 边 × 21 输出点, ε_max=0.0600
+[done 1113s] 008_Fe
+[curves] 171_Cu: 跳过 3 个降采样新增邻接对
+[curves] 171_Cu: 324 边 × 21 输出点, ε_max=0.0600
+[done 1481s] 171_Cu
+[curves] 171_Ni: 跳过 3 个降采样新增邻接对
+[curves] 171_Ni: 324 边 × 21 输出点, ε_max=0.0600
+[done 1171s] 171_Ni
+[curves] 171_Fe: 跳过 3 个降采样新增邻接对
+[curves] 171_Fe: 324 边 × 21 输出点, ε_max=0.0600
+[done 1258s] 171_Fe
+[curves] 103_Cu: 跳过 1 个降采样新增邻接对
+[curves] 103_Cu: 147 边 × 21 输出点, ε_max=0.0600
+[done 1317s] 103_Cu
+[curves] 103_Ni: 跳过 1 个降采样新增邻接对
+[curves] 103_Ni: 147 边 × 21 输出点, ε_max=0.0600
+[done 1111s] 103_Ni
+[curves] 103_Fe: 跳过 1 个降采样新增邻接对
+[curves] 103_Fe: 147 边 × 21 输出点, ε_max=0.0600
+[done 1200s] 103_Fe
+[curves] 038_Cu: 120 边 × 21 输出点, ε_max=0.0600
+[done 1353s] 038_Cu
+[curves] 038_Ni: 120 边 × 21 输出点, ε_max=0.0600
+[done 1026s] 038_Ni
+[curves] 038_Fe: 120 边 × 21 输出点, ε_max=0.0600
+[done 1286s] 038_Fe
+[curves] 193_Ni: 跳过 16 个降采样新增邻接对
+[curves] 193_Ni: 598 边 × 21 输出点, ε_max=0.0600
+[done 1075s] 193_Ni
+[curves] 193_Cu: 跳过 16 个降采样新增邻接对
+[curves] 193_Cu: 598 边 × 21 输出点, ε_max=0.0600
+[done 1418s] 193_Cu
+[curves] 193_Fe: 跳过 16 个降采样新增邻接对
+[curves] 193_Fe: 598 边 × 21 输出点, ε_max=0.0600
+[done 1314s] 193_Fe
+[curves] 039_Ni: 跳过 3 个降采样新增邻接对
+[curves] 039_Ni: 137 边 × 21 输出点, ε_max=0.0600
+[done 745s] 039_Ni
+[curves] 039_Cu: 跳过 3 个降采样新增邻接对
+[curves] 039_Cu: 137 边 × 21 输出点, ε_max=0.0600
+[done 1034s] 039_Cu
+[curves] 039_Fe: 跳过 3 个降采样新增邻接对
+[curves] 039_Fe: 137 边 × 21 输出点, ε_max=0.0600
+[done 799s] 039_Fe
+=== E3 批量结束 2026年 10月 27日 星期二 14:11:32 CST ===

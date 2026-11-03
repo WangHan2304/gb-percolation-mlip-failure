@@ -1,0 +1,4 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+chgnet,Cu,fcc,310,5,z0.0_t0.750.00,1778.74,3.6156,192,2.304,ok
+mace-mp0-small,Cu,fcc,310,5,z0.2_t0.250.00,863.73,3.6150,192,2.345,ok
+mace-mp0-medium,Cu,fcc,310,5,z0.2_t0.250.00,829.33,3.6257,192,2.344,ok

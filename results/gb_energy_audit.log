@@ -1,0 +1,64 @@
+
+=== Cu (fcc) × mace-mp0-small ===
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+  torch.load(f=model_path, map_location=device)
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using Materials Project MACE for MACECalculator with /home/cl/.cache/mace/20231210mace128L0_energy_epoch249model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+  a0=3.6150 Å  E_atom=-4.0904 eV
+  [σ核对] (1, 1, 1): 公式 Σ3 vs 取向计数 Σ9（以公式为准）
+  [(1, 1, 1)] 2γ_surf=2633 mJ/m² (N_ref=96)
+  [(1, 1, 1)] Σ3 z0.0_t0.000.00: γ=7.8 mJ/m²  (N=176, dmin=2.525, γ0=17)
+  [(1, 1, 1)] Σ3 z0.0_t0.500.00: γ=7.8 mJ/m²  (N=176, dmin=2.525, γ0=17)
+  [σ核对] (1, 1, 2): 公式 Σ3 vs 取向计数 Σ9（以公式为准）
+  [(1, 1, 2)] 2γ_surf=3116 mJ/m² (N_ref=48)
+  [(1, 1, 2)] Σ3 z0.5_t0.000.50: γ=579.3 mJ/m²  (N=96, dmin=2.467, γ0=1214)
+  [(1, 1, 2)] Σ3 z0.5_t0.500.50: γ=579.3 mJ/m²  (N=96, dmin=2.467, γ0=1214)
+  [σ核对] (2, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(2, 1, 0)] 2γ_surf=3442 mJ/m² (N_ref=48)
+  [(2, 1, 0)] Σ5 z0.5_t0.250.25: γ=1026.8 mJ/m²  (N=96, dmin=2.365, γ0=1461)
+  [(2, 1, 0)] Σ5 z0.5_t0.250.75: γ=1026.8 mJ/m²  (N=96, dmin=2.365, γ0=1461)
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=3399 mJ/m² (N_ref=96)
+  [(3, 1, 0)] 全部平移态构造不合格（dmin < 2.0）
+  [σ核对] (2, 2, 1): 公式 Σ9 vs 取向计数 Σ81（以公式为准）
+  [(2, 2, 1)] 2γ_surf=4617 mJ/m² (N_ref=48)
+  [(2, 2, 1)] 全部平移态构造不合格（dmin < 2.0）
+  [σ核对] (1, 1, 3): 公式 Σ11 vs 取向计数 Σ121（以公式为准）
+  [(1, 1, 3)] 2γ_surf=3770 mJ/m² (N_ref=96)
+  [(1, 1, 3)] Σ11 z0.0_t0.000.00: γ=822.1 mJ/m²  (N=184, dmin=2.414, γ0=5114)
+  [(1, 1, 3)] Σ11 z0.0_t0.500.00: γ=822.1 mJ/m²  (N=184, dmin=2.414, γ0=5114)
+
+=== Cu (fcc) × mace-mp0-medium ===
+  torch.load(f=model_path, map_location=device)
+Using Materials Project MACE for MACECalculator with /home/cl/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+  a0=3.6257 Å  E_atom=-4.0848 eV
+  [σ核对] (1, 1, 1): 公式 Σ3 vs 取向计数 Σ9（以公式为准）
+  [(1, 1, 1)] 2γ_surf=2608 mJ/m² (N_ref=96)
+  [(1, 1, 1)] Σ3 z0.0_t0.000.00: γ=5.4 mJ/m²  (N=176, dmin=2.554, γ0=6)
+  [(1, 1, 1)] Σ3 z0.0_t0.500.00: γ=5.4 mJ/m²  (N=176, dmin=2.554, γ0=6)
+  [σ核对] (1, 1, 2): 公式 Σ3 vs 取向计数 Σ9（以公式为准）
+  [(1, 1, 2)] 2γ_surf=2997 mJ/m² (N_ref=48)
+  [(1, 1, 2)] Σ3 z0.5_t0.000.50: γ=558.6 mJ/m²  (N=96, dmin=2.476, γ0=1180)
+  [(1, 1, 2)] Σ3 z0.5_t0.500.50: γ=558.6 mJ/m²  (N=96, dmin=2.476, γ0=1180)
+  [σ核对] (2, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(2, 1, 0)] 2γ_surf=3286 mJ/m² (N_ref=48)
+  [(2, 1, 0)] Σ5 z0.5_t0.250.25: γ=1007.8 mJ/m²  (N=96, dmin=2.371, γ0=1378)
+  [(2, 1, 0)] Σ5 z0.5_t0.250.75: γ=1007.8 mJ/m²  (N=96, dmin=2.371, γ0=1378)
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=3256 mJ/m² (N_ref=96)
+  [(3, 1, 0)] 全部平移态构造不合格（dmin < 2.0）
+  [σ核对] (2, 2, 1): 公式 Σ9 vs 取向计数 Σ81（以公式为准）
+  [(2, 2, 1)] 2γ_surf=4037 mJ/m² (N_ref=48)
+  [(2, 2, 1)] 全部平移态构造不合格（dmin < 2.0）
+  [σ核对] (1, 1, 3): 公式 Σ11 vs 取向计数 Σ121（以公式为准）
+  [(1, 1, 3)] 2γ_surf=3596 mJ/m² (N_ref=96)
+  [(1, 1, 3)] Σ11 z0.0_t0.000.00: γ=771.7 mJ/m²  (N=184, dmin=2.418, γ0=5162)
+  [(1, 1, 3)] Σ11 z0.0_t0.500.00: γ=771.7 mJ/m²  (N=184, dmin=2.418, γ0=5162)
+
+=== Cu (fcc) × chgnet ===
+  a0=3.6156 Å  E_atom=-4.0835 eV
+  [σ核对] (1, 1, 1): 公式 Σ3 vs 取向计数 Σ9（以公式为准）
+  [(1, 1, 1)] 2γ_surf=1671 mJ/m² (N_ref=96)
+  [(1, 1, 1)] Σ3 z0.0_t0.000.50: γ=-

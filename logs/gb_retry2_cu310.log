@@ -1,0 +1,48 @@
+
+=== Cu (fcc) × chgnet ===
+CHGNet v0.3.0 initialized with 412,525 parameters
+CHGNet will run on cpu
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/chgnet/model/model.py:898: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /__w/pytorch/pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:820.)
+  volumes = torch.tensor(volumes, dtype=TORCH_DTYPE, device=atomic_numbers.device)
+  a0=3.6156 Å  E_atom=-4.0835 eV
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=2587 mJ/m² (N_ref=96)
+  [(3, 1, 0)] Σ5 z0.0_t0.750.00: γ=1778.7 mJ/m²  (N=192, dmin=2.304, γ0=93453)
+
+=== Cu (fcc) × mace-mp0-small ===
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using Materials Project MACE for MACECalculator with /home/cl/.cache/mace/20231210mace128L0_energy_epoch249model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+  a0=3.6150 Å  E_atom=-4.0904 eV
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=3399 mJ/m² (N_ref=96)
+  [(3, 1, 0)] Σ5 z0.2_t0.250.00: γ=863.7 mJ/m²  (N=192, dmin=2.345, γ0=91203)
+
+=== Cu (fcc) × mace-mp0-medium ===
+Using Materials Project MACE for MACECalculator with /home/cl/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+  a0=3.6257 Å  E_atom=-4.0848 eV
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=3260 mJ/m² (N_ref=96)
+  [(3, 1, 0)] Σ5 z0.2_t0.250.00: γ=829.3 mJ/m²  (N=192, dmin=2.344, γ0=35150)
+
+写入 results/gb_retry2_cu310.csv

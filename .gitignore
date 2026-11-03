@@ -1,0 +1,20 @@
+# raw CPFEM campaign runs (5.2 GB of HDF5; over GitHub size limits — derived labels are in labels/)
+propagation/e3_runs/
+
+# python caches
+__pycache__/
+*.pyc
+
+# LaTeX build artifacts
+*.aux
+*.out
+*.bak
+paper/manuscript.log
+submission_npj_comp_mat/manuscript.log
+
+# compiled manuscript PDFs (build from .tex sources)
+paper/manuscript.pdf
+submission_npj_comp_mat/manuscript.pdf
+
+# internal planning notes
+论文方向规划_金属×AI_晶界渗流沿晶失效.md

@@ -1,0 +1,26 @@
+
+=== Cu (fcc) × mace-mp0-medium ===
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+Using Materials Project MACE for MACECalculator with /home/cl/.cache/mace/20231203mace128L1_epoch199model
+Using float64 for MACECalculator, which is slower but more accurate. Recommended for geometry optimization.
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/mace/calculators/mace.py:226: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+/home/cl/20261016MLIP传播论文/.venv/lib/python3.12/site-packages/torch/jit/_serialization.py:176: FutureWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+  a0=3.6257 Å  E_atom=-4.0848 eV
+  [σ核对] (3, 1, 0): 公式 Σ5 vs 取向计数 Σ25（以公式为准）
+  [(3, 1, 0)] 2γ_surf=3260 mJ/m² (N_ref=96)
+  [(3, 1, 0)] 全部平移态构造不合格（dmin < 1.3）
+  [σ核对] (2, 2, 1): 公式 Σ9 vs 取向计数 Σ81（以公式为准）
+  [(2, 2, 1)] 2γ_surf=4037 mJ/m² (N_ref=48)
+  [(2, 2, 1)] Σ9 z0.2_t0.500.00: γ=1534.7 mJ/m²  (N=96, dmin=2.400, γ0=20868)
+
+写入 results/gb_retry_medium_cu.csv

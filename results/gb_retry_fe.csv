@@ -1,0 +1,10 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+chgnet,Fe,bcc,210,5,-,,2.8492,0,,failed
+chgnet,Fe,bcc,310,5,z0.5_t0.250.00,1727.25,2.8492,144,2.321,ok
+chgnet,Fe,bcc,130,5,z0.5_t0.250.00,1727.25,2.8492,144,2.321,ok
+mace-mp0-small,Fe,bcc,210,5,-,,2.8580,0,,failed
+mace-mp0-small,Fe,bcc,310,5,z0.5_t0.750.00,2231.59,2.8580,144,2.386,ok
+mace-mp0-small,Fe,bcc,130,5,z0.5_t0.250.00,2231.59,2.8580,144,2.386,ok
+mace-mp0-medium,Fe,bcc,210,5,-,,2.8550,0,,failed
+mace-mp0-medium,Fe,bcc,310,5,z0.2_t0.250.25,2637.39,2.8550,144,2.359,ok
+mace-mp0-medium,Fe,bcc,130,5,z0.2_t0.250.25,2637.39,2.8550,144,2.359,ok

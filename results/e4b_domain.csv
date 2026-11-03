@@ -1,0 +1,4 @@
+scope,n_groups,n_rows,n_ood,tau
+orig8,8,72,3,3.5251
+all20,20,180,6,3.5251
+ext12,12,108,3,3.5251

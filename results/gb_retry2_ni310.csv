@@ -1,0 +1,4 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+chgnet,Ni,fcc,310,5,z0.2_t0.750.00,3840.37,3.5018,288,2.234,ok
+mace-mp0-small,Ni,fcc,310,5,z0.2_t0.500.00,2234.36,3.5131,288,2.215,ok
+mace-mp0-medium,Ni,fcc,310,5,z0.2_t0.250.00,-137607769.85,3.5114,288,0.007,ok_lowdmin

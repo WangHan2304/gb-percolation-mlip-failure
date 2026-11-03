@@ -1,0 +1,4 @@
+potential,metal,structure,hkl,sigma,state,gamma_mJ_per_m2,a0_A,natoms,min_dist_A,flag
+mace-mp0-medium,Ni,fcc,310,5,-,,3.5114,0,,failed
+mace-mp0-medium,Ni,fcc,221,9,z0.2_t0.500.50,3676.22,3.5114,96,2.224,ok
+mace-mp0-medium,Ni,fcc,113,11,z0.0_t0.500.00,881.95,3.5114,184,2.346,ok

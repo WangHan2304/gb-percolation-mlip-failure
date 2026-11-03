@@ -1,0 +1,44 @@
+Cover letter — npj Computational Materials
+
+Dear Editors,
+
+We would like to submit our manuscript entitled "Grain-boundary network
+percolation meets machine-learned grain-boundary energies: blind prediction
+of intergranular failure susceptibility" for
+consideration as an Article in npj Computational Materials.
+
+[To our knowledge,] no validated pipeline currently connects boundary-energy
+spectra, network topology, and failure susceptibility end to end. Our
+manuscript presents a fully computational, auditable pipeline that composes
+machine-learned grain-boundary energies, percolation descriptors of periodic
+microstructure networks, crystal-plasticity-derived failure labels, and a
+microstructure-grouped blind test with conformal uncertainty quantification
+and an error-propagation audit. Key points of interest for the journal's
+readership include:
+
+- A leakage-controlled, fully blind evaluation on twenty unseen
+  microstructures (twelve added after the model was frozen), every headline
+  metric reported with a microstructure-group bootstrap confidence interval.
+- A decoupled control showing which part of the model's energy-channel
+  advantage is constructed by the label rule rather than discovered — an
+  honest decomposition of topology versus energy contributions.
+- An error-propagation audit driven by the measured inter-potential spread
+  of machine-learned potentials, finding that predictions absorb rather than
+  amplify atomic-scale error.
+
+This work is methodological in positioning: it reports relative failure
+susceptibility rankings under a fixed, documented equivalent-damage rule,
+with quantified uncertainty throughout.
+
+We confirm that this manuscript is original, has not been published
+previously, and is not under consideration by another journal. All authors
+have approved the manuscript and agree with its submission. The authors
+declare no competing interests (statement included in the manuscript).
+[Adapt as needed before submission: suggested reviewers, any preprint
+version.]
+
+Thank you for your consideration.
+
+Sincerely,
+Han Wang (wanghan2304@zhejianglab.org)
+On behalf of all authors
