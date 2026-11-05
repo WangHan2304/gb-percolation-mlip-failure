@@ -5,7 +5,7 @@
 Code, data and manuscript sources for the manuscript:
 
 > **Grain-boundary network percolation meets machine-learned grain-boundary energies: blind prediction of intergranular failure susceptibility**
-> Han Wang\(^{1}\), Mengjia Chen\(^{2,1}\) — \({}^{1}\)Zhejiang Lab, \({}^{2}\)School of Materials Science and Engineering, Zhejiang University
+> Han Wang\(^{1}\), Mengjia Chen\(^{2,1}\), Mingxiang Liu\(^{3}\) — \({}^{1}\)Zhejiang Lab, \({}^{2}\)School of Materials Science and Engineering, Zhejiang University, \({}^{3}\)Zhongyuan Critical Metals Laboratory, Zhengzhou University
 
 The pipeline composes machine-learned grain-boundary energies (Cu, Ni, Fe × chgnet/MACE-MP), energy-decorated periodic Voronoi microstructures with percolation descriptors, crystal-plasticity-derived intergranular-failure labels, and a microstructure-grouped blind test with split-conformal uncertainty quantification and an error-propagation audit.
 

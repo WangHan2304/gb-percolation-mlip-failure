@@ -144,7 +144,7 @@ The authors acknowledge the computing resources of Zhejiang Lab, which supported
 
 ## Contributions
 
-H.W. conceived the study, designed the analysis pipeline, developed the software, performed the crystal-plasticity simulations and machine-learning experiments, analysed the data, and wrote the manuscript. M.C. contributed to the interpretation of the results and critically reviewed and edited the manuscript. Both authors have read and approved the final manuscript.
+H.W. conceived the study, designed the analysis pipeline, developed the software, performed the crystal-plasticity simulations and machine-learning experiments, analysed the data, and wrote the manuscript. M.C. and M.L. contributed to the interpretation of the results and critically reviewed and edited the manuscript. All authors have read and approved the final manuscript.
 
 ## References
 
