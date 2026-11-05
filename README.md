@@ -34,7 +34,7 @@ All derived datasets supporting this work are in `results/` and `labels/` (file-
 
 ## Funding
 
-This work was supported by the `Pioneers and Leaders + X' R&D Plan of the Zhejiang Provincial Major Sci-Tech Innovation Platform Project (Grant No. 2025SSYS0006), corresponding to the Key Research Project of Zhejiang Lab (Grant No. 3700-3AA250100), and the National Natural Science Foundation of China (Grant No. U24A2029)`.
+This work was supported by the National Natural Science Foundation of China (Grant No. U24A2029) and the `Pioneers and Leaders + X' R&D Plan of the Zhejiang Provincial Major Sci-Tech Innovation Platform Project (Grant No. 2025SSYS0006), corresponding to the Key Research Project of Zhejiang Lab (Grant No. 3700-3AA250100)`.
 
 ## Correspondence
 
