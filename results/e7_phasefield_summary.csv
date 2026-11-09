@@ -1,0 +1,10 @@
+metal,potential,n,n_pf_censored,rho_strict,rho_cens_worst
+Cu,chgnet,20,8,0.1529,0.2251
+Cu,mace-mp0-medium,20,7,0.2688,0.3031
+Cu,mace-mp0-small,20,8,0.2599,0.291
+Ni,chgnet,18,4,0.2087,0.1425
+Ni,mace-mp0-medium,18,4,0.3497,0.1689
+Ni,mace-mp0-small,18,4,0.2932,0.1205
+Fe,chgnet,8,3,-0.1579,0.3614
+Fe,mace-mp0-medium,8,3,-0.2895,0.1448
+Fe,mace-mp0-small,8,3,-0.1579,0.3614
