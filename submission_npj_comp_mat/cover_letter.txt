@@ -7,7 +7,7 @@ percolation meets machine-learned grain-boundary energies: blind prediction
 of intergranular failure susceptibility" for
 consideration as an Article in npj Computational Materials.
 
-[To our knowledge,] no validated pipeline currently connects boundary-energy
+To our knowledge, no validated pipeline currently connects boundary-energy
 spectra, network topology, and failure susceptibility end to end. Our
 manuscript presents a fully computational, auditable pipeline that composes
 machine-learned grain-boundary energies, percolation descriptors of periodic
@@ -25,6 +25,12 @@ readership include:
 - An error-propagation audit driven by the measured inter-potential spread
   of machine-learned potentials, finding that predictions absorb rather than
   amplify atomic-scale error.
+- An independent cross-check with a from-scratch phase-field fracture
+  engine (46 microstructures, 138 runs) that knows nothing about the
+  equivalent-damage rule: it recovers the direction of the susceptibility
+  ordering and quantifies how much more permissive the synthetic label is
+  than a fracture-mechanics criterion, bounding rather than overselling the
+  label.
 
 This work is methodological in positioning: it reports relative failure
 susceptibility rankings under a fixed, documented equivalent-damage rule,
@@ -34,8 +40,20 @@ We confirm that this manuscript is original, has not been published
 previously, and is not under consideration by another journal. All authors
 have approved the manuscript and agree with its submission. The authors
 declare no competing interests (statement included in the manuscript).
-[Adapt as needed before submission: suggested reviewers, any preprint
-version.]
+No preprint version of this manuscript is available.
+
+Suggested reviewers (no conflict of interest known to the authors):
+
+- Prof. Christopher A. Schuh, Department of Materials Science and Engineering,
+  Massachusetts Institute of Technology, USA — grain-boundary networks,
+  boundary-engineered microstructures, and percolation-based descriptions of
+  intergranular degradation.
+- Prof. Volker L. Deringer, Department of Chemistry, University of Oxford, UK —
+  machine-learned interatomic potentials for inorganic materials, including
+  their accuracy, uncertainty, and benchmarking.
+- Prof. Mikko J. Alava, Department of Applied Physics, Aalto University,
+  Finland — statistical physics of fracture and percolation in disordered
+  materials.
 
 Thank you for your consideration.
 
