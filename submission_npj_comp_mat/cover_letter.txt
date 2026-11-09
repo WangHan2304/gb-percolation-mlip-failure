@@ -27,10 +27,16 @@ readership include:
   amplify atomic-scale error.
 - An independent cross-check with a from-scratch phase-field fracture
   engine (46 microstructures, 138 runs) that knows nothing about the
-  equivalent-damage rule: it recovers the direction of the susceptibility
-  ordering and quantifies how much more permissive the synthetic label is
-  than a fracture-mechanics criterion, bounding rather than overselling the
-  label.
+  equivalent-damage rule: it is directionally consistent with the
+  susceptibility ordering but bounds it, arresting 22-38% of the cases the
+  rule labels as percolated, and quantifying how much more permissive the
+  synthetic label is than a fracture-mechanics criterion.
+
+The closest antecedent, machine-learned prediction of per-boundary damage
+susceptibility (Zhang et al., Int. J. Plasticity 150 (2022) 103186), works
+at the level of individual boundaries; we lift that target to network-level
+percolative failure and test the resulting predictor on unseen
+microstructures.
 
 This work is methodological in positioning: it reports relative failure
 susceptibility rankings under a fixed, documented equivalent-damage rule,
