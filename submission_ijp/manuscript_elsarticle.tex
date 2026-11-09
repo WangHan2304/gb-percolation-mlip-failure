@@ -182,6 +182,9 @@ The primary blind set throughout this paper is this twenty-microstructure / 180-
 
 The perturbation source is \textit{measured}, not assumed: the three potential pools of E1 are three realisations of MLIP boundary-energy error (Sec. 2.1). For perturbation level $p \in \{0, 0.25, 0.5, 0.75, 1\}$, every edge independently resamples its energy from a \textit{different} potential's same-family pool with probability $p$ (one alternative potential per trial). The unperturbed $\gamma$ vectors are reproduced by replaying E2's random stream exactly (\texttt{default\_rng(42 + sample)} shared with grid generation). Across all 40 labelled microstructures the replayed mean $\gamma$ agrees with the stored feature table to $\le$ 7$\times$10$^{-5}$ (pure rounding). Features are recomputed, predictions re-issued with E4-identical models (the unperturbed blind AUC on the original eight-group \textit{audit} set reproduces 0.8508 exactly --- this audit set, not the primary twenty-group set, underlies E5), and 8 Monte-Carlo trials per level pool the drift. Topology features are invariant by construction and form the structural zero control; the \textbf{T}-only model must therefore show exactly zero drift. The propagation gain is $G$ = median relative prediction drift $\div$ median relative $\gamma$-feature drift ($G$ $<$ 1 $\Rightarrow$ the prediction layer absorbs input error).
 
+\subsection{Code, analysis and AI-assisted tooling}
+Code scaffolding and analysis scripts were developed with the assistance of an AI-assisted coding environment; all numerical results, model configurations and phase-field implementations were verified by the authors and are reproducible from the archived repository (Code availability). AI assistance in the writing process is declared separately at the end of the paper.
+
 \section*{Data availability}
 
 {\sloppy
@@ -207,7 +210,7 @@ The authors declare that they have no known competing financial interests or per
 This work was supported by the National Natural Science Foundation of China (Grant No. U24A2029) and the `Pioneers and Leaders + X' R\&D Plan of the Zhejiang Provincial Major Sci-Tech Innovation Platform Project (Grant No. 2025SSYS0006), corresponding to the Key Research Project of Zhejiang Lab (Grant No. 3700-3AA250100).
 
 \section*{Declaration of generative AI and AI-assisted technologies in the writing process}
-During the preparation of this work the authors used an AI-assisted writing and coding environment to draft and edit text, to scaffold the analysis and figure-generation code, and to prepare the submission files. All scientific content, numerical results, figures and conclusions were reviewed and verified by the authors, who take full responsibility for the content of this publication.
+During the preparation of this work the authors used an AI-assisted writing environment to draft and edit text and to prepare the submission files. AI assistance in code scaffolding and analysis is described in the Methods. All scientific content, numerical results, figures and conclusions were reviewed and verified by the authors, who take full responsibility for the content of this publication.
 \section*{Acknowledgements}
 
 The authors acknowledge the computing resources of Zhejiang Lab, which supported the crystal-plasticity simulations and machine-learning experiments reported in this work.
