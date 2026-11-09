@@ -124,11 +124,10 @@ ax4.bar(ii + 0.18, pf, width=0.32, color="#4C72B0", edgecolor="none")
 ax4.set_xticks(ii)
 ax4.set_xticklabels(metals, fontsize=5.4)
 ax4.set_yticks([0, 0.5, 1.0])
-ax4.set_yticklabels(["0", "50", "100"], fontsize=5.0)
+ax4.set_yticklabels(["0", "50", "100%"], fontsize=5.0)
 ax4.tick_params(length=0, pad=1)
 for s in ax4.spines.values():
     s.set_visible(False)
-ax4.set_ylabel("percolating (%)", fontsize=4.8, labelpad=0.5)
 ax4.text(0.02, 1.02, "rule", transform=ax4.transAxes, fontsize=5.0, color="#888888")
 ax4.text(0.98, 1.02, "phase field", transform=ax4.transAxes, ha="right",
          fontsize=5.0, color="#4C72B0")
