@@ -4,8 +4,8 @@ Highlights
 
 • Topology alone blind-predicts intergranular percolation at AUC 0.77 (CI 0.62–0.90)
 
-• A decoupled control shows part of the energy advantage is built in by the damage rule
+• A decoupled control shows part of the energy advantage is built in by the rule
 
-• A phase-field cross-check reproduces the ranking direction but bounds the rule
+• A phase-field cross-check is directionally consistent but bounds the damage rule
 
 • Machine-learning error is absorbed, not amplified, along the energy-to-failure chain

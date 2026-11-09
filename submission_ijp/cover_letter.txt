@@ -3,48 +3,42 @@ Cover letter — International Journal of Plasticity
 Dear Editor,
 
 We would like to submit our manuscript entitled "Grain-boundary network
-percolation meets machine-learned grain-boundary energies: blind prediction
-of intergranular failure susceptibility" for consideration as an original
+percolation meets machine-learned grain-boundary energies: blind prediction of
+intergranular failure susceptibility" for consideration as an original
 research paper in the International Journal of Plasticity.
 
-The question we address is one of failure criteria as much as of machine
-learning: when a polycrystal's grain-boundary network is decorated with a
-real, potential-dependent boundary-energy spectrum, what determines which
-microstructure fails first in intergranular mode, and how far can that verdict
-be trusted? Crystal plasticity supplies the labels — 360 periodic columnar
-RVEs solved with the DAMASK spectral solver under a fixed, documented
-equivalent-damage rule — while machine-learned boundary energies decorate the
-same microstructures with percolation descriptors. The resulting ranking model
-is then tested blind on twenty microstructures withheld from every stage of
-fitting.
+This is a plasticity-informed, not plasticity-mechanistic, study: CPFEM supplies
+the boundary-normal stress histories, and the contribution is the audited
+composition of MLIP energies, percolation topology and a bounded failure label.
+The closest IJP antecedent is Zhang et al. (2022, 150, 103186), which predicts
+per-boundary damage sensitivity; we extend that line to network-level percolative
+failure with grouped blind testing and an independent phase-field bound. We
+deliberately do not claim validation: the phase-field cross-check bounds the label
+(median ρ 0.23; 22–38% arrest of rule-percolated cases), and all claims are framed
+as relative rankings under a fixed synthetic rule.
 
-The point we believe is most relevant to this journal's readership is a
-mechanics check on the failure criterion itself:
+The concrete mechanics checks behind that framing are:
 
 - The labels come from an equivalent-damage rule, not from a fracture-mechanics
-  criterion. We therefore re-solve a 46-microstructure subset with an
-  independent phase-field fracture engine (AT2, 138 runs) that is given
-  nothing but the same boundary-energy map. It recovers the direction of the
-  susceptibility ordering, but arrests 22–38% of the cases the rule labels as
-  percolated: the equivalent-damage rule is systematically more permissive,
-  and our cross-check bounds rather than certifies it.
+  criterion. We therefore re-solve a 46-microstructure subset with an independent
+  phase-field fracture engine (AT2, 138 runs) that is given nothing but the same
+  boundary-energy map. It is directionally consistent with the ordering, but it
+  arrests 22–38% of the cases the rule labels as percolated: the equivalent-damage
+  rule is systematically more permissive.
 - A decoupled control isolates how much of the energy channel's predictive
   advantage is constructed by the damage rule rather than discovered from the
   microstructure.
 - Uncertainty is quantified end to end: microstructure-grouped cross-validation,
   split-conformal intervals, a k-nearest-neighbour applicability domain, and an
-  error-propagation audit whose perturbation source is the measured spread
-  between three machine-learned potentials rather than an assumed noise model.
+  error-propagation audit whose perturbation source is the measured spread between
+  three machine-learned potentials rather than an assumed noise model.
 
-We have tried to be explicit about what the work does not establish: the
-rankings hold under a fixed synthetic-label rule, conditional conformal
-coverage remains open under the frozen protocol, and no experimental
-cross-validation is claimed. All data, labels and code (including the phase-
-field engine) are released with the paper.
+All data, labels and code (including the phase-field engine) are released with the
+paper, so the failure label itself can be re-derived and challenged.
 
 We confirm that this manuscript is original, has not been published previously,
-and is not under consideration by another journal. All authors have approved
-the manuscript and agree with its submission. The authors declare no competing
+and is not under consideration by another journal. All authors have approved the
+manuscript and agree with its submission. The authors declare no competing
 financial interests or personal relationships (statement included in the
 manuscript), and a CRediT authorship contribution statement is provided.
 No preprint version of this manuscript is available.
