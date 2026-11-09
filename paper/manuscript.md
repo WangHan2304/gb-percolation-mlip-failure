@@ -158,7 +158,7 @@ The authors acknowledge the computing resources of Zhejiang Lab, which supported
 
 ## Contributions
 
-H.W. conceived the study, designed the analysis pipeline, developed the software, performed the crystal-plasticity simulations and machine-learning experiments, analysed the data, and wrote the manuscript. M.C. and M.L. provided methodological and technical input, performed part of the crystal-plasticity simulations and data analysis, contributed to the interpretation of the results, and critically reviewed and edited the manuscript. All authors have read and approved the final manuscript.
+H.W. conceived the study, designed the analysis pipeline, developed the software, performed the crystal-plasticity simulations and machine-learning experiments, implemented and independently ran the phase-field fracture engine used for the cross-check (E7), analysed the data, and wrote the manuscript. M.C. and M.L. provided methodological and technical input, performed part of the crystal-plasticity simulations and data analysis, contributed to the interpretation of the results, and critically reviewed and edited the manuscript. All authors have read and approved the final manuscript.
 
 ## References
 
