@@ -73,7 +73,7 @@ for s in ax1.spines.values():
 ax1.set_ylabel("$\\gamma$ (mJ m$^{-2}$)", fontsize=5.2, labelpad=1)
 
 # --- panel 2: schematic Voronoi network with high-energy sub-network --------
-ax2 = fig.add_axes([xs[1] + 0.018, Y0 + 0.055, W - 0.036, H - 0.10])
+ax2 = fig.add_axes([xs[1] + 0.018, Y0 + 0.072, W - 0.036, H - 0.117])
 rng = np.random.default_rng(7)
 pts = rng.uniform(0, 1, (26, 2))
 from scipy.spatial import Voronoi
@@ -93,8 +93,8 @@ ax2.set_ylim(-0.02, 1.02)
 ax2.set_xticks([])
 ax2.set_yticks([])
 ax2.set_frame_on(False)
-ax2.text(0.5, 0.03, "high-$\\gamma$ sub-network", transform=ax2.transAxes,
-         ha="center", va="bottom", fontsize=5.0, color="#C44E52")
+bg.text(xs[1] + W / 2, 0.352, "high-$\\gamma$ sub-network", ha="center", va="center",
+        fontsize=4.8, color="#C44E52")
 
 # --- panel 3: label balance -----------------------------------------------
 ax3 = fig.add_axes([xs[2] + 0.018, Y0 + 0.055, W - 0.036, H - 0.10])
@@ -114,7 +114,7 @@ ax3.text(per / 2, 0.34, "percolated", ha="center", va="bottom", fontsize=4.5, co
 ax3.text(per + (tot - per) / 2, 0.34, "censored", ha="center", va="bottom", fontsize=4.5, color="#777777")
 
 # --- panel 4: rule versus phase field ------------------------------------
-ax4 = fig.add_axes([xs[3] + 0.018, Y0 + 0.055, W - 0.036, H - 0.10])
+ax4 = fig.add_axes([xs[3] + 0.038, Y0 + 0.095, W - 0.058, H - 0.160])
 metals = ["Cu", "Ni", "Fe"]
 rule = [1.0, 1.0, 1.0]
 pf = [37 / 60, 42 / 54, 15 / 24]
@@ -128,9 +128,9 @@ ax4.set_yticklabels(["0", "50", "100%"], fontsize=5.0)
 ax4.tick_params(length=0, pad=1)
 for s in ax4.spines.values():
     s.set_visible(False)
-ax4.text(0.02, 1.02, "rule", transform=ax4.transAxes, fontsize=5.0, color="#888888")
-ax4.text(0.98, 1.02, "phase field", transform=ax4.transAxes, ha="right",
-         fontsize=5.0, color="#4C72B0")
+ax4.text(0.02, 1.06, "rule", transform=ax4.transAxes, fontsize=4.8, color="#888888")
+ax4.text(0.98, 1.06, "phase field", transform=ax4.transAxes, ha="right",
+         fontsize=4.8, color="#4C72B0")
 
 fig.savefig(OUT, dpi=300, facecolor="white")
 plt.close(fig)
