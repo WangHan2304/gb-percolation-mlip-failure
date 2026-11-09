@@ -9,6 +9,7 @@ __pycache__/
 *.aux
 *.out
 *.bak
+*.spl
 paper/manuscript.log
 submission_npj_comp_mat/manuscript.log
 submission_ijp/manuscript.log

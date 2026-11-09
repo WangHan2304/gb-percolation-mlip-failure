@@ -331,7 +331,8 @@ def figs(res, aud, scopes):
                bbox_to_anchor=(0.5, 1.0), ncol=3, frameon=False,
                fontsize=11.5, columnspacing=1.4, handletextpad=0.5)
     fig.tight_layout(rect=[0, 0, 1, 0.93])
-    fig.savefig(os.path.join(E4.D6, "figures", "e4b_blind_ci.png"), dpi=200)
+    fig.savefig(os.path.join(os.environ.get("FIG_OUT", os.path.join(E4.D6, "figures")),
+                             "e4b_blind_ci.png"), dpi=int(os.environ.get("FIG_DPI", "200")))
     plt.close(fig)
     print("[fig] figures/e4b_blind_ci.png 已出")
 

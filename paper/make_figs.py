@@ -21,9 +21,13 @@ plt.rcParams.update({"font.size": 11.5, "axes.spines.top": False, "axes.spines.r
                      "figure.dpi": 150})
 
 
+FIG_DPI = int(os.environ.get("FIG_DPI", "200"))
+FIG_OUT = os.path.abspath(os.environ["FIG_OUT"]) if os.environ.get("FIG_OUT") else HERE
+
+
 def save(fig, name):
-    p = os.path.join(HERE, name)
-    fig.savefig(p, dpi=200, bbox_inches="tight")
+    p = os.path.join(FIG_OUT, name)
+    fig.savefig(p, dpi=FIG_DPI, bbox_inches="tight")
     plt.close(fig)
     print(f"→ {name}")
 
